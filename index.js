@@ -7,4 +7,4 @@ program
 
 program.parse(process.argv);
 
-console.log()
+console.log('hello')
