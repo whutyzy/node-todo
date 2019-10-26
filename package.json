@@ -1,0 +1,19 @@
+{
+  "name": "whutyzy-node-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whutyzy/node-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whutyzy/node-todo/issues"
+  },
+  "homepage": "https://github.com/whutyzy/node-todo#readme",
+  "devDependencies": {
+    "commander": "^3.0.2"
+  }
+}
