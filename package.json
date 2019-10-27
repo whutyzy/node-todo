@@ -1,8 +1,11 @@
 {
   "name": "whutyzy-node-todo",
-  "version": "1.0.0",
-  "bin": "todo",
+  "version": "1.0.1",
+  "bin": {
+    "todo": "cli.js"
+  },
   "main": "index.js",
+  "files": ["*.js"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/whutyzy/node-todo.git"
@@ -13,7 +16,7 @@
     "url": "https://github.com/whutyzy/node-todo/issues"
   },
   "homepage": "https://github.com/whutyzy/node-todo#readme",
-  "devDependencies": {
+  "dependencies": {
     "commander": "^3.0.2",
     "inquirer": "^7.0.0"
   }
