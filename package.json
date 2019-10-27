@@ -1,6 +1,6 @@
 {
   "name": "whutyzy-node-todo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": {
     "todo": "cli.js"
   },
