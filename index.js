@@ -77,8 +77,10 @@ const remove = function (list, index) {
 }
 module.exports = {
     async add(task) {
+        console.log('break point start')
         const list = await db.read()
         list.push({task: task, done: false})
+        console.log('end')
         await db.write(list)
     },
     async clear() {
